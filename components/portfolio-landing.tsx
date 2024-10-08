@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import {
   Calendar,
   ChevronDown,
-  FilePlus,
   FilePlus2,
   Github,
   Linkedin,
