@@ -48,11 +48,11 @@ export function Page() {
             {/* Left side - Hero content */}
             <div className="md:w-1/2 mb-10 md:mb-0 pr-0 md:pr-8">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
-                More than just a software agency{' '}
+                AI that works for you.
               </h1>
               <p className="text-xl mb-8 text-gray-600">
-                We help you realize your business potential with cutting edge
-                technology.
+                We help you realize your business potential with custom AI and
+                software solutions.
               </p>
               <div className="flex space-x-4">
                 <Button asChild size="xxl" className="bg-blue-600">
@@ -213,23 +213,29 @@ export function Page() {
               {/* Right Column */}
               <div className="md:w-2/3">
                 <div className="space-y-6">
-                  {/* Revenue Section */}
+                  {/* Risk Free Section */}
                   <BenefitItem
                     number="1"
+                    title="Risk free"
+                    description="We guarantee results or your money back."
+                  />
+                  {/* Revenue Section */}
+                  <BenefitItem
+                    number="2"
                     title="Increase your revenue"
                     description="Use AI to handle more visitors, traffic, sales, and brand loyalty - you name it. Recurring revenue and repeat business is the foundation of your business, and we've helped our clients generate strong recurring revenues for success."
                   />
 
                   {/* User Acquisition Section */}
                   <BenefitItem
-                    number="2"
+                    number="3"
                     title="Attract more users"
                     description="We help you reach and engage your target audience effectively, driving user acquisition and retention through data-driven strategies and innovative solutions that resonate with your market."
                   />
 
                   {/* Professional Scaling Section */}
                   <BenefitItem
-                    number="3"
+                    number="4"
                     title="Scale with agents"
                     description="Our agents are capable of handling a wide range of tasks, from customer support to social media management, ensuring your project scales efficiently and effectively, providing the expertise and resources needed to grow your business sustainably."
                   />

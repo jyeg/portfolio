@@ -1,4 +1,4 @@
-import PortfolioLanding from "@/app/(company)/about/portfolio";
+import PortfolioLanding from '@/app/about/portfolio';
 
 export default function About() {
   return <PortfolioLanding />;
