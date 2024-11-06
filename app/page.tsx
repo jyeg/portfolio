@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
 };
 
-export function Page() {
+export default function Page() {
   return (
     <div className="min-h-screen bg-white text-gray-900">
       <main>
@@ -279,5 +279,3 @@ function ServiceCard({
     </Card>
   );
 }
-
-export default Page;
