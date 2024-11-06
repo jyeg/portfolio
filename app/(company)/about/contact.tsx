@@ -1,5 +1,7 @@
-import { motion } from "framer-motion";
-import { Mail, MapPin, Calendar, FilePlus2 } from "lucide-react";
+'use client';
+
+import { motion } from 'framer-motion';
+import { Mail, MapPin, Calendar, FilePlus2 } from 'lucide-react';
 
 export default function Contact() {
   return (

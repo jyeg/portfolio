@@ -1,0 +1,56 @@
+.benefitItem {
+  border-bottom: 1px solid #e2e8f0;
+  padding: 1rem 0;
+}
+
+.benefitHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.benefitTitle {
+  display: flex;
+  align-items: center;
+}
+
+.benefitNumber {
+  color: #3b82f6;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+.benefitHeading {
+  font-weight: bold;
+}
+
+.benefitIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #3b82f6;
+  transition: transform 0.3s ease;
+}
+
+.benefitContent {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease, margin-top 0.3s ease;
+  opacity: 0;
+}
+
+.benefitContent.open {
+  max-height: 1000px; /* Adjust this value based on your content */
+  opacity: 1;
+  margin-top: 1rem;
+}
+
+.benefitDescription {
+  color: #4b5563;
+  margin-bottom: 1rem;
+}

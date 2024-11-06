@@ -17,8 +17,42 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.jy-labs.com"),
   title: "JY Labs",
-  description: "Let's build something great.",
+  keywords: [
+    "ai automation",
+    "software development",
+    "business process automation",
+    "lead generation",
+    "lead generation software",
+    "ai software development",
+    "ai automation software",
+    "business process automation software",
+    "ai automation company",
+    "ai automation software development",
+    "ai automation software development company",
+    "ai automation software development company in austin",
+    "ai automation software development company in texas",
+    "ai automation software development company in austin texas",
+  ],
+  description:
+    "JY Labs offers AI automation, strategy, implementation, and software development to help businesses innovate, scale, and grow.",
+  icons: {
+    icon: "/favicon.ico",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export default function RootLayout({
@@ -29,15 +63,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <title>JY Labs - Automation and Software Development Company</title>
-        <meta
-          name="description"
-          content="JY Labs offers AI automation strategy, implementation, and software development to help businesses innovate and grow."
-        />
-        <meta
-          name="keywords"
-          content="AI automation, software development, business process automation, lead generation, lead generation software, ai software development, ai automation software, ai automation company, ai automation software development, ai automation software development company, ai automation software development company in austin, ai automation software development company in texas, ai automation software development company in austin texas, ai automation software development company in austin, ai automation software development company in texas, ai automation software development company in austin texas, ai automation software development company in austin, ai automation software development company in texas, ai automation software development company in austin texas, ai automation software development company in austin, ai automation software development company in texas, ai automation software development company in austin texas"
-        />
+        <title>jy labs - AI Automation and Software Development Company</title>
         <link rel="canonical" href="https://www.jy-labs.com" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>

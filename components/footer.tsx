@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -7,9 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-xl font-semibold mb-4">JY Labs</h3>
-            <p className="text-gray-400">
-              Empowering your AI journey with innovative solutions.
-            </p>
+            <p className="text-gray-400">Empowering your business with AI.</p>
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
@@ -22,14 +20,14 @@ export default function Footer() {
                   Services
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   href="/work"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Work
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   href="/about"
