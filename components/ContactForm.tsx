@@ -1,4 +1,5 @@
 'use client';
+
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -10,6 +11,7 @@ import {
   CardDescription,
   CardContent,
 } from '@/components/ui/card';
+import { trackEvent } from '@/lib/mpixel';
 
 const ContactForm: React.FC = () => {
   const [name, setName] = useState('');
@@ -57,6 +59,13 @@ const ContactForm: React.FC = () => {
         setHoldingBack('');
         setIdealScenario('');
         setMessage('');
+
+        trackEvent('Contact', {
+          name,
+          email,
+          phone,
+          company,
+        });
       } else {
         setSubmitStatus('error');
       }

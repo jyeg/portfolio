@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const jobs = [
   {
     company: 'Side',
-    role: 'LeadSoftware Engineer',
+    role: 'Lead Software Engineer',
     period: '2023 - 2024',
     description: 'Payments platform lead backend engineer.',
     link: 'https://www.side.com',
@@ -21,7 +21,7 @@ const jobs = [
     company: 'Expedia Group',
     role: 'Tech Lead',
     period: '2018 - 2021',
-    description: 'Full stack dev leader.',
+    description: 'Full stack tech lead.',
     link: 'https://www.expediagroup.com',
   },
   {

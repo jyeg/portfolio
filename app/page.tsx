@@ -38,6 +38,7 @@ export default function Page() {
               alt="Background Illustration"
               fill
               className="object-cover"
+              priority
               quality={50}
             />
             <div className="absolute inset-0 bg-gradient-to-r from-blue-50/90 to-indigo-60/90 backdrop-blur-sm min-h-[80vh]" />
@@ -64,7 +65,7 @@ export default function Page() {
             </div>
 
             {/* Right side - Contact Form */}
-            <div className="md:w-1/2 w-full">
+            <div className="md:w-1/2 w-full mt-4">
               <div className="backdrop-blur-md rounded shadow-lg">
                 <ContactForm />
               </div>
